@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Shootings from "./component/Shootings";
+import { Container, Header, Icon } from "semantic-ui-react";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Container style={{ padding: "5em 0em" }}>
+        <Header as="h1">
+          <Icon name="photo" />
+          Shootings
+        </Header>
+        <Shootings />
+      </Container>
     </div>
   );
 }
