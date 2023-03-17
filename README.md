@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Shootings
+
+This project is a test for handling basic data on React of shootings, includes basic authentication.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
